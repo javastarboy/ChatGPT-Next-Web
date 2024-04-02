@@ -292,6 +292,15 @@ export const DEFAULT_MODELS = [
       providerType: "google",
     },
   },
+  {
+    name: "suno-v3",
+    available: true,
+    provider: {
+      id: "suno",
+      providerName: "Suno",
+      providerType: "suno",
+    },
+  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
