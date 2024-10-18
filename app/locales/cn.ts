@@ -12,14 +12,17 @@ const cn = {
        \\ ✅ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
        \\ ✅ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️
        \\ ✅ 建议使用电脑浏览器，体验更佳，[立即前往](https://javastarboy.com)`
-      : `😆 对话遇到了一些问题，不用慌:
-       \\ ✅ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \\ ✅ 【访问密码】或【API key】不正确，或【额度已用尽】
+      : `😆 对话遇到点问题，不用慌，可能是【访问密码】或【API key】不正确，或【额度已用尽】:
+       \  
        \ 1. 请前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页输入正确的API Key。
        \ 2. 若密码错误或额度已用尽，可前往👉🏻[✅ 控制台“充值”处](https://javastarboy.com/panel/topup) **自行充值或检查自己的令牌额度设置是否正确**。
        \ 3. 交个朋友：[自我介绍 & AI知识库](https://www.yuque.com/lhyyh/ai/readme)
-       \\ ✅ 『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png) 
-       \\ 📣 本站接广告 及 代部署业务
+       \
+       \ ✅ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
+       \
+       \ ✅ 『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png) 
+       \
+       \ 📣 本站接广告 及 代部署业务
        `,
   },
   Auth: {
