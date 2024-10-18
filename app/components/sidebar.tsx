@@ -332,6 +332,7 @@ export function SideBar(props: { className?: string }) {
         secondaryAction={
           <>
             <IconButton
+              style={{ marginRight: '8px' }}
               icon={<NoticeIcon />}
               text={shouldNarrow ? undefined : Locale.Notice.Name}
               className={`${styles["sidebar-bar-button"]} ${styles["centered-button"]}`}
@@ -340,7 +341,7 @@ export function SideBar(props: { className?: string }) {
                 console.log("showDialog===" + showDialog);
               }}
               shadow
-            /> &nbsp;&nbsp;
+            /> 
             <IconButton
               icon={<AddIcon />}
               text={shouldNarrow ? undefined : Locale.Home.NewChat}
@@ -436,11 +437,11 @@ export function SideBar(props: { className?: string }) {
               ✅ 领航AGI AIGC 大模型『聚合平台』正式上线啦，开箱即用 🎉🎉🎉{" 支持功能如下👇 "}
               <br />{" "}
               <span style={{ color: "purple" }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 个人 API_Key 管理，消费日志查询，数据看板、模型管理！<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 高额邀请奖励， 额度用不完！<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 集成了当下最火的几款 AI 工具，满足所有人喜好，总有一款适合你！<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 支持 Midjourney 绘画、Suno音乐、AI视频！<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 安全、稳定、高并发，最牛的AI聚合中转站，可用于个人网站！<br />
+                {'    '}👍🏻 个人 API_Key 管理，消费日志查询，数据看板、模型管理！<br />
+                {'    '}👍🏻 高额邀请奖励， 额度用不完！<br />
+                {'    '}👍🏻 集成了当下最火的几款 AI 工具，满足所有人喜好，总有一款适合你！<br />
+                {'    '}👍🏻 支持 Midjourney 绘画、Suno音乐、AI视频！<br />
+                {'    '}👍🏻 安全、稳定、高并发，最牛的AI聚合中转站，可用于个人网站！<br />
               </span>
 
               <br />✅ 交个朋友，@AGI舰长介绍 ▶{" "}
