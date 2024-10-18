@@ -158,6 +158,11 @@ const en: LocaleType = {
     DeleteToast: "Chat Deleted",
     Revert: "Revert",
   },
+  Notice: {
+    Name: "公告",
+    Content:
+      "📣重要通知：加微信 LHYYH0001 获取最新版本，支持 GPT-4、ChatGLM、文心一言、Claude 等大模型",
+  },
   Settings: {
     Title: "Settings",
     SubTitle: "All Settings",

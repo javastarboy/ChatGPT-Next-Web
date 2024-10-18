@@ -11,6 +11,7 @@ import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import DragIcon from "../icons/drag.svg";
 import DiscoveryIcon from "../icons/discovery.svg";
+import NoticeIcon from "../icons/notice.svg"; // 引入公告图标
 
 import Locale from "../locales";
 
@@ -29,7 +30,7 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import { isIOS, useMobileScreen } from "../utils";
 import dynamic from "next/dynamic";
-import { showConfirm, Selector } from "./ui-lib";
+import { showConfirm, showToast, Modal } from "./ui-lib"; // 引入Modal组件
 
 const ChatList = dynamic(async () => (await import("./chat-list")).ChatList, {
   loading: () => null,
@@ -219,6 +220,8 @@ export function SideBar(props: { className?: string }) {
   useHotKey();
   const { onDragStart, shouldNarrow } = useDragSideBar();
   const [showPluginSelector, setShowPluginSelector] = useState(false);
+  const [showDialog, setShowDialog] = useState(true); // 控制公告弹窗的显示状态
+  const isMobileScreen = useMobileScreen();
   const navigate = useNavigate();
   const config = useAppConfig();
   const chatStore = useChatStore();
@@ -230,8 +233,17 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="AGI舰长 Next版"
+        subTitle={
+          <>
+            <a
+              href="https://oss.javastarboy.com/agi/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+              target="_blank"
+            >
+              点我加入 AI 交流群！
+            </a>
+          </>
+        }
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
@@ -305,6 +317,7 @@ export function SideBar(props: { className?: string }) {
                 />
               </Link>
             </div>
+            {/* 如果不需要 GitHub 图标，可以注释或删除以下代码 */}
             <div className={styles["sidebar-action"]}>
               <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
                 <IconButton
@@ -317,21 +330,130 @@ export function SideBar(props: { className?: string }) {
           </>
         }
         secondaryAction={
-          <IconButton
-            icon={<AddIcon />}
-            text={shouldNarrow ? undefined : Locale.Home.NewChat}
-            onClick={() => {
-              if (config.dontShowMaskSplashScreen) {
-                chatStore.newSession();
-                navigate(Path.Chat);
-              } else {
-                navigate(Path.NewChat);
-              }
-            }}
-            shadow
-          />
+          <>
+            <IconButton
+              icon={<NoticeIcon />}
+              text={shouldNarrow ? undefined : Locale.Notice.Name}
+              className={`${styles["sidebar-bar-button"]} ${styles["centered-button"]}`}
+              onClick={() => {
+                setShowDialog(true); // 展示公告弹窗
+                console.log("showDialog===" + showDialog);
+              }}
+              shadow
+            /> &nbsp;&nbsp;
+            <IconButton
+              icon={<AddIcon />}
+              text={shouldNarrow ? undefined : Locale.Home.NewChat}
+              onClick={() => {
+                if (config.dontShowMaskSplashScreen) {
+                  chatStore.newSession();
+                  navigate(Path.Chat);
+                } else {
+                  navigate(Path.NewChat);
+                }
+              }}
+              shadow
+            />
+          </>
         }
       />
+
+      {/* 公告弹窗 */}
+      {showDialog && (
+        <div className="modal-mask">
+          <Modal
+            title={
+              "📣 公 告 | 领航AGI聚合平台正式上线啦 🎉🎉🎉"
+            }
+            onClose={() => setShowDialog(false)}
+            actions={[
+              <IconButton
+                key="close"
+                bordered
+                text={"关闭"}
+                onClick={() => {
+                  setShowDialog(false);
+                  console.log("showDialog2===" + showDialog);
+                }}
+              />,
+              <IconButton
+                key="talk"
+                bordered
+                text={"交流"}
+                onClick={() => {
+                  window.open(
+                    "https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png",
+                    "_blank",
+                  );
+                }}
+              />,
+              <IconButton
+                key="support"
+                bordered
+                text={"赞助"}
+                onClick={() => {
+                  window.open(
+                    "https://oss.javastarboy.com/agi/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
+                    "_blank",
+                  );
+                }}
+              />,
+              <IconButton
+                key="knowledge"
+                bordered
+                text={"AI知识库"}
+                onClick={() => {
+                  window.open("https://www.yuque.com/lhyyh/ai/readme", "_blank");
+                }}
+              />,
+              <IconButton
+                key="knowledge"
+                bordered
+                text={"AIGC证书"}
+                onClick={() => {
+                  window.open("https://www.yuque.com/lhyyh/ai/ins6gx3o7hck7shb", "_blank");
+                }}
+              />,
+              <IconButton
+                key="community"
+                bordered
+                text={"AI全栈通识课"}
+                onClick={() => {
+                  window.open("https://oss.javastarboy.com/agi/%E5%BE%AE%E4%BF%A1H5%EF%BC%88%E6%B5%B7%E8%B1%9A%E7%9F%A5%E9%81%93%EF%BC%89.jpg", "_blank");
+                }}
+              />,
+            ]}
+          >
+            <div className={styles["markdown-body"]}>
+              ✅ 领航AGI大模型聚合平台 ▶{" "}
+              <a
+                href="https://javastarboy.com.cn"
+                target="_blank"
+              >
+                ✅ 立即前往
+              </a>
+              <br /><br />
+              ✅ 领航AGI AIGC 大模型『聚合平台』正式上线啦，开箱即用 🎉🎉🎉{" 支持功能如下👇 "}
+              <br />{" "}
+              <span style={{ color: "purple" }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 个人 API_Key 管理，消费日志查询，数据看板、模型管理！<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 高额邀请奖励， 额度用不完！<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 集成了当下最火的几款 AI 工具，满足所有人喜好，总有一款适合你！<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 支持 Midjourney 绘画、Suno音乐、AI视频！<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;👍🏻 安全、稳定、高并发，最牛的AI聚合中转站，可用于个人网站！<br />
+              </span>
+
+              <br />✅ 交个朋友，@AGI舰长介绍 ▶{" "}
+              <a
+                href="https://www.yuque.com/lhyyh/ai/readme"
+                target="_blank"
+              >
+                【AI全栈工程师的简历】
+              </a>
+            </div>
+          </Modal>
+        </div>
+      )}
     </SideBarContainer>
   );
 }
