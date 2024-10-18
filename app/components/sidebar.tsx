@@ -12,6 +12,7 @@ import MaskIcon from "../icons/mask.svg";
 import DragIcon from "../icons/drag.svg";
 import DiscoveryIcon from "../icons/discovery.svg";
 import NoticeIcon from "../icons/notice.svg"; // 引入公告图标
+import { Selector } from "./ui-lib";
 
 import Locale from "../locales";
 
