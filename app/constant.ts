@@ -501,5 +501,5 @@ export const PLUGINS = [
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
-export const SAAS_CHAT_URL = "https://javastarboy.com.cn/playground";
-export const SAAS_CHAT_UTM_URL = "https://javastarboy.com.cn/playground";
+export const SAAS_CHAT_URL = "https://javastarboy.com/playground";
+export const SAAS_CHAT_UTM_URL = "https://javastarboy.com/playground";

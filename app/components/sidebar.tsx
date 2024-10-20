@@ -429,7 +429,7 @@ export function SideBar(props: { className?: string }) {
             <div className={styles["markdown-body"]}>
               ✅ 领航AGI大模型聚合平台 ▶{" "}
               <a
-                href="https://javastarboy.com.cn"
+                href="https://javastarboy.com"
                 target="_blank"
               >
                 ✅ 立即前往
