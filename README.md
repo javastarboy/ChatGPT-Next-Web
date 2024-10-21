@@ -4,80 +4,39 @@
   <img src="./docs/images/ent.svg" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat (ChatGPT Next Web)</h1>
+<h1 align="center">NextChat</h1>
 
-English / [简体中文](./README_CN.md)
+简体中文 / [English](./README_EN.md)
 
-One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
+一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+[演示Demo](https://www.jsbcp-2.top/#/) / [领航AGI聚合平台](#%E4%BC%81%E4%B8%9A%E7%89%88) / [AI全栈通识教程]([https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入我们](https://www.yuque.com/lhyyh/ai/conactus](https://www.yuque.com/lhyyh/agi/introduce))
 
-[![Saas][Saas-image]][saas-url]
-[![Web][Web-image]][web-url]
-[![Windows][Windows-image]][download-url]
-[![MacOS][MacOS-image]][download-url]
-[![Linux][Linux-image]][download-url]
-
-[NextChatAI](https://nextchat.dev/chat?utm_source=readme) / [Web App](https://app.nextchat.dev) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Enterprise Edition](#enterprise-edition) / [Twitter](https://twitter.com/NextChatDev)
-
-[NextChatAI](https://nextchat.dev/chat) / [网页版](https://app.nextchat.dev) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues)
-
-[saas-url]: https://nextchat.dev/chat?utm_source=readme
-[saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
-[web-url]: https://app.nextchat.dev/
-[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
-[Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
-[Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
-[MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
-[Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
-
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
-
-[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
-
+[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/ChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) 
 </div>
 
-## Enterprise Edition
+## 领航AGI聚合平台
 
-Meeting Your Company's Privatization and Customization Deployment Requirements:
-- **Brand Customization**: Tailored VI/UI to seamlessly align with your corporate brand image.
-- **Resource Integration**: Unified configuration and management of dozens of AI resources by company administrators, ready for use by team members.
-- **Permission Control**: Clearly defined member permissions, resource permissions, and knowledge base permissions, all controlled via a corporate-grade Admin Panel.
-- **Knowledge Integration**: Combining your internal knowledge base with AI capabilities, making it more relevant to your company's specific business needs compared to general AI.
-- **Security Auditing**: Automatically intercept sensitive inquiries and trace all historical conversation records, ensuring AI adherence to corporate information security standards.
-- **Private Deployment**: Enterprise-level private deployment supporting various mainstream private cloud solutions, ensuring data security and privacy protection.
-- **Continuous Updates**: Ongoing updates and upgrades in cutting-edge capabilities like multimodal AI, ensuring consistent innovation and advancement.
-
-For enterprise inquiries, please contact: **business@nextchat.dev**
-
-## 企业版
-
-满足企业用户私有化部署和个性化定制需求：
-- **品牌定制**：企业量身定制 VI/UI，与企业品牌形象无缝契合
+满足您个人\公司大模型聚合 API 中转、私有化部署和定制需求
+- **品牌定制**：AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持 Midjourney Proxy、Suno、Rerank。
 - **资源集成**：由企业管理人员统一配置和管理数十种 AI 资源，团队成员开箱即用
-- **权限管理**：成员权限、资源权限、知识库权限层级分明，企业级 Admin Panel 统一控制
-- **知识接入**：企业内部知识库与 AI 能力相结合，比通用 AI 更贴近企业自身业务需求
+- **支持模型**：OpenAI GPT、Claude、Gemini、文心一言、通义千问、讯飞星火、智谱GLM、Midjourney、Suno、Rerank等主流模型。
+- **智能体**：基于 RAG 与 Agent 技术的企业内部知识库与 AI 能力相结合，比通用 AI 更贴近企业自身业务需求
 - **安全审计**：自动拦截敏感提问，支持追溯全部历史对话记录，让 AI 也能遵循企业信息安全规范
 - **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
 - **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
 
-企业版咨询: **business@nextchat.dev**
+咨询微信: **LHYYH0001**
 
-<img width="300" src="https://github.com/user-attachments/assets/3d4305ac-6e95-489e-884b-51d51db5f692">
+<img width="300" src="https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png">
 
-## Features
+## 开始使用
 
-- **Deploy for free with one-click** on Vercel in under 1 minute
-- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
-- Privacy first, all data is stored locally in the browser
-- Markdown support: LaTex, mermaid, code highlight, etc.
-- Responsive design, dark mode and PWA
-- Fast first screen loading speed (~100kb), support streaming response
-- New in v2: create, share and debug your chat tools with prompt templates (mask)
-- Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
-- Automatically compresses chat history to support long conversations while also saving your tokens
-- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
+1. 准备好你的 [OpenAI API Key](https://javastarboy.com/);
+2. 点击右侧按钮开始部署：
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/ChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+3. 部署完毕后，即可开始使用；
+4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
 <div align="center">
    
@@ -85,419 +44,318 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 
 </div>
 
-## Roadmap
+## 保持更新
 
-- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] User Prompt: user can edit and save custom prompts to prompt list
-- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] Share as image, share to ShareGPT [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] Desktop App with tauri
-- [x] Self-host Model: Fully compatible with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), as well as server deployment of [LocalAI](https://github.com/go-skynet/LocalAI): llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly etc.
-- [x] Artifacts: Easily preview, copy and share generated content/webpages through a separate window [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
-- [x] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-  - [x] network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-- [ ] local knowledge base
+如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。
+推荐你按照下列步骤重新部署：
 
-## What's New
+- 删除掉原先的仓库；
+- 使用页面右上角的 fork 按钮，fork 本项目；
+- 在 Vercel 重新选择并部署，[请查看详细教程](./docs/vercel-cn.md#如何新建项目)。
 
-- 🚀 v2.15.4 The Application supports using Tauri fetch LLM API, MORE SECURITY! [#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
-- 🚀 v2.15.0 Now supports Plugins! Read this: [NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
-- 🚀 v2.14.0 Now supports  Artifacts & SD 
-- 🚀 v2.10.1 support Google Gemini Pro model.
-- 🚀 v2.9.11 you can use azure endpoint now.
-- 🚀 v2.8 now we have a client that runs across all platforms!
-- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
-- 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
+### 打开自动更新
 
-## 主要功能
+> 如果你遇到了 Upstream Sync 执行错误，请[手动 Sync Fork 一次](./README_CN.md#手动更新代码)！
 
-- 在 1 分钟内使用 Vercel **免费一键部署**
-- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
-- 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
-- 极快的首屏加载速度（~100kb），支持流式响应
-- 隐私安全，所有数据保存在用户浏览器本地
-- 预制角色功能（面具），方便地创建、分享和调试你的个性化对话
-- 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
-- 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
-- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
-- 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
+当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
 
-## 开发计划
+![自动更新](./docs/images/enable-actions.jpg)
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] 使用 tauri 打包桌面应用
-- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI 项目](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
-- [x] Artifacts: 通过独立窗口，轻松预览、复制和分享生成的内容/可交互网页 [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
-- [x] 插件机制，支持`联网搜索`、`计算器`、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-   - [x] 支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
- - [ ] 本地知识库
+![启用自动更新](./docs/images/enable-actions-sync.jpg)
 
-## 最新动态
+### 手动更新代码
 
-- 🚀 v2.15.4 客户端支持Tauri本地直接调用大模型API，更安全！[#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
-- 🚀 v2.15.0 现在支持插件功能了！了解更多：[NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
-- 🚀 v2.14.0 现在支持 Artifacts & SD 了。
-- 🚀 v2.10.1 现在支持 Gemini Pro 模型。
-- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
-- 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
-- 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
-- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
+如果你想让手动立即更新，可以查看 [Github 的文档](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) 了解如何让 fork 的项目与上游代码同步。
 
-## Get Started
+你可以 star/watch 本项目或者 follow 作者来及时获得新功能更新通知。
 
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
+## 配置页面访问密码
 
-1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
-3. Enjoy :)
+> 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
 
-## FAQ
+> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)。
 
-[简体中文 > 常见问题](./docs/faq-cn.md)
-
-[English > FAQ](./docs/faq-en.md)
-
-## Keep Updated
-
-> [简体中文 > 如何保持代码更新](./README_CN.md#保持更新)
-
-If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
-
-We recommend that you follow the steps below to re-deploy:
-
-- Delete the original repository;
-- Use the fork button in the upper right corner of the page to fork this project;
-- Choose and deploy in Vercel again, [please see the detailed tutorial](./docs/vercel-cn.md).
-
-### Enable Automatic Updates
-
-> If you encounter a failure of Upstream Sync execution, please [manually update code](./README.md#manually-updating-code).
-
-After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
-
-![Automatic Updates](./docs/images/enable-actions.jpg)
-
-![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
-
-### Manually Updating Code
-
-If you want to update instantly, you can check out the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked project with upstream code.
-
-You can star or watch this project or follow author to get release notifications in time.
-
-## Access Password
-
-> [简体中文 > 如何增加访问密码](./README_CN.md#配置页面访问密码)
-
-This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
+本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
 
 ```
 code1,code2,code3
 ```
 
-After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
+增加或修改该环境变量后，请**重新部署**项目使改动生效。
 
-## Environment Variables
+## 环境变量
 
-> [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
+> 本项目大多数配置项都通过环境变量来设置，教程：[如何修改 Vercel 环境变量](./docs/vercel-cn.md)。
 
-### `CODE` (optional)
+### `OPENAI_API_KEY` （必填项）
 
-Access password, separated by comma.
+OpanAI 密钥，你在 openai 账户页面申请的 api key，使用英文逗号隔开多个 key，这样可以随机轮询这些 key。
 
-### `OPENAI_API_KEY` (required)
+### `CODE` （可选）
 
-Your openai api key, join multiple api keys with comma.
+访问密码，可选，可以使用逗号隔开多个密码。
 
-### `BASE_URL` (optional)
+**警告**：如果不填写此项，则任何人都可以直接使用你部署后的网站，可能会导致你的 token 被急速消耗完毕，建议填写此选项。
+
+### `BASE_URL` （可选）
 
 > Default: `https://api.openai.com`
 
 > Examples: `http://your-openai-proxy.com`
 
-Override openai api request base url.
+OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填写此选项。
 
-### `OPENAI_ORG_ID` (optional)
+> 如果遇到 ssl 证书问题，请将 `BASE_URL` 的协议设置为 http。
 
-Specify OpenAI organization ID.
+### `OPENAI_ORG_ID` （可选）
 
-### `AZURE_URL` (optional)
+指定 OpenAI 中的组织 ID。
 
-> Example: https://{azure-resource-url}/openai
+### `AZURE_URL` （可选）
 
-Azure deploy url.
+> 形如：https://{azure-resource-url}/openai
 
-### `AZURE_API_KEY` (optional)
+Azure 部署地址。
 
-Azure Api Key.
+### `AZURE_API_KEY` （可选）
 
-### `AZURE_API_VERSION` (optional)
+Azure 密钥。
 
-Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+### `AZURE_API_VERSION` （可选）
 
-### `GOOGLE_API_KEY` (optional)
+Azure Api 版本，你可以在这里找到：[Azure 文档](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)。
 
-Google Gemini Pro Api Key.
+### `GOOGLE_API_KEY` (可选)
 
-### `GOOGLE_URL` (optional)
+Google Gemini Pro 密钥.
+
+### `GOOGLE_URL` (可选)
 
 Google Gemini Pro Api Url.
 
-### `ANTHROPIC_API_KEY` (optional)
+### `ANTHROPIC_API_KEY` (可选)
 
 anthropic claude Api Key.
 
-### `ANTHROPIC_API_VERSION` (optional)
+### `ANTHROPIC_API_VERSION` (可选)
 
 anthropic claude Api version.
 
-### `ANTHROPIC_URL` (optional)
+### `ANTHROPIC_URL` (可选)
 
 anthropic claude Api Url.
 
-### `BAIDU_API_KEY` (optional)
+### `BAIDU_API_KEY` (可选)
 
 Baidu Api Key.
 
-### `BAIDU_SECRET_KEY` (optional)
+### `BAIDU_SECRET_KEY` (可选)
 
 Baidu Secret Key.
 
-### `BAIDU_URL` (optional)
+### `BAIDU_URL` (可选)
 
 Baidu Api Url.
 
-### `BYTEDANCE_API_KEY` (optional)
+### `BYTEDANCE_API_KEY` (可选)
 
 ByteDance Api Key.
 
-### `BYTEDANCE_URL` (optional)
+### `BYTEDANCE_URL` (可选)
 
 ByteDance Api Url.
 
-### `ALIBABA_API_KEY` (optional)
+### `ALIBABA_API_KEY` (可选)
 
-Alibaba Cloud Api Key.
+阿里云（千问）Api Key.
 
-### `ALIBABA_URL` (optional)
+### `ALIBABA_URL` (可选)
 
-Alibaba Cloud Api Url.
+阿里云（千问）Api Url.
 
-### `IFLYTEK_URL` (Optional)
+### `IFLYTEK_URL` (可选)
 
-iflytek Api Url.
+讯飞星火Api Url.
 
-### `IFLYTEK_API_KEY` (Optional)
+### `IFLYTEK_API_KEY` (可选)
 
-iflytek Api Key.
+讯飞星火Api Key.
 
-### `IFLYTEK_API_SECRET` (Optional)
+### `IFLYTEK_API_SECRET` (可选)
 
-iflytek Api Secret.
+讯飞星火Api Secret.
 
-### `HIDE_USER_API_KEY` (optional)
 
-> Default: Empty
 
-If you do not want users to input their own API key, set this value to 1.
+### `HIDE_USER_API_KEY` （可选）
 
-### `DISABLE_GPT4` (optional)
+如果你不想让用户自行填入 API Key，将此环境变量设置为 1 即可。
 
-> Default: Empty
+### `DISABLE_GPT4` （可选）
 
-If you do not want users to use GPT-4, set this value to 1.
+如果你不想让用户使用 GPT-4，将此环境变量设置为 1 即可。
 
-### `ENABLE_BALANCE_QUERY` (optional)
+### `ENABLE_BALANCE_QUERY` （可选）
 
-> Default: Empty
+如果你想启用余额查询功能，将此环境变量设置为 1 即可。
 
-If you do want users to query balance, set this value to 1.
+### `DISABLE_FAST_LINK` （可选）
 
-### `DISABLE_FAST_LINK` (optional)
+如果你想禁用从链接解析预制设置，将此环境变量设置为 1 即可。
 
-> Default: Empty
+### `WHITE_WEBDAV_ENDPOINTS` (可选)
 
-If you want to disable parse settings from url, set this to 1.
+如果你想增加允许访问的webdav服务地址，可以使用该选项，格式要求：
+- 每一个地址必须是一个完整的 endpoint
+> `https://xxxx/xxx`
+- 多个地址以`,`相连
 
-### `CUSTOM_MODELS` (optional)
+### `CUSTOM_MODELS` （可选）
 
-> Default: Empty
-> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
+> 示例：`+qwen-7b-chat,+glm-6b,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` 表示增加 `qwen-7b-chat` 和 `glm-6b` 到模型列表，而从列表中删除 `gpt-3.5-turbo`，并将 `gpt-4-1106-preview` 模型名字展示为 `gpt-4-turbo`。
+> 如果你想先禁用所有模型，再启用指定模型，可以使用 `-all,+gpt-3.5-turbo`，则表示仅启用 `gpt-3.5-turbo`
 
-To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
+用来控制模型列表，使用 `+` 增加一个模型，使用 `-` 来隐藏一个模型，使用 `模型名=展示名` 来自定义模型的展示名，用英文逗号隔开。
 
-User `-all` to disable all default models, `+all` to enable all default models.
+在Azure的模式下，支持使用`modelName@Azure=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+> 示例：`+gpt-3.5-turbo@Azure=gpt35`这个配置会在模型列表显示一个`gpt35(Azure)`的选项。
+> 如果你只能使用Azure模式，那么设置 `-all,+gpt-3.5-turbo@Azure=gpt35` 则可以让对话的默认使用 `gpt35(Azure)`
 
-For Azure: use `modelName@Azure=deploymentName` to customize model name and deployment name.
-> Example: `+gpt-3.5-turbo@Azure=gpt35` will show option `gpt35(Azure)` in model list.
-> If you only can use Azure model, `-all,+gpt-3.5-turbo@Azure=gpt35` will `gpt35(Azure)` the only option in model list.
+在ByteDance的模式下，支持使用`modelName@bytedance=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+> 示例: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx`这个配置会在模型列表显示一个`Doubao-lite-4k(ByteDance)`的选项
 
-For ByteDance: use `modelName@bytedance=deploymentName` to customize model name and deployment name.
-> Example: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` will show option `Doubao-lite-4k(ByteDance)` in model list.
 
-### `DEFAULT_MODEL` （optional）
+### `DEFAULT_MODEL` （可选）
 
-Change default model
+更改默认模型
 
-### `WHITE_WEBDAV_ENDPOINTS` (optional)
+### `DEFAULT_INPUT_TEMPLATE` （可选）
 
-You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
-- Each address must be a complete endpoint 
-> `https://xxxx/yyy`
-- Multiple addresses are connected by ', '
-
-### `DEFAULT_INPUT_TEMPLATE` (optional)
-
-Customize the default template used to initialize the User Input Preprocessing configuration item in Settings.
+自定义默认的 template，用于初始化『设置』中的『用户输入预处理』配置项
 
 ### `STABILITY_API_KEY` (optional)
 
-Stability API key.
+Stability API密钥
 
 ### `STABILITY_URL` (optional)
 
-Customize Stability API url.
+自定义的Stability API请求地址
 
-## Requirements
 
-NodeJS >= 18, Docker >= 20
+## 开发
 
-## Development
-
-> [简体中文 > 如何进行二次开发](./README_CN.md#开发)
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
-
-Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
+在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 
 ```
 OPENAI_API_KEY=<your api key here>
 
-# if you are not able to access openai service, use this BASE_URL
-BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
+# 中国大陆用户，可以使用本项目自带的代理进行开发，你也可以自由选择其他代理地址
+BASE_URL=https://b.nextweb.fun/api/proxy
 ```
 
-### Local Development
+### 本地开发
 
-```shell
-# 1. install nodejs and yarn first
-# 2. config local env vars in `.env.local`
-# 3. run
-yarn install
-yarn dev
-```
+1. 安装 nodejs 18 和 yarn，具体细节请询问 ChatGPT；
+2. 执行 `yarn install && yarn dev` 即可。⚠️ 注意：此命令仅用于本地开发，不要用于部署！
+3. 如果你想本地部署，请使用 `yarn install && yarn build && yarn start` 命令，你可以配合 pm2 来守护进程，防止被杀死，详情询问 ChatGPT。
 
-## Deployment
+## 部署
 
-> [简体中文 > 如何部署到私人服务器](./README_CN.md#部署)
+### 容器部署 （推荐）
 
-### Docker (Recommended)
+> Docker 版本需要在 20 及其以上，否则会提示找不到镜像。
+
+> ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
 
 ```shell
 docker pull yidadaa/chatgpt-next-web
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=your-password \
+   -e CODE=页面访问密码 \
    yidadaa/chatgpt-next-web
 ```
 
-You can start service behind a proxy:
+你也可以指定 proxy：
 
 ```shell
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=your-password \
-   -e PROXY_URL=http://localhost:7890 \
+   -e CODE=页面访问密码 \
+   --net=host \
+   -e PROXY_URL=http://127.0.0.1:7890 \
    yidadaa/chatgpt-next-web
 ```
 
-If your proxy needs password, use:
+如果你的本地代理需要账号密码，可以使用：
 
 ```shell
--e PROXY_URL="http://127.0.0.1:7890 user pass"
+-e PROXY_URL="http://127.0.0.1:7890 user password"
 ```
 
-### Shell
+如果你需要指定其他环境变量，请自行在上述命令中增加 `-e 环境变量=环境变量值` 来指定。
+
+### 本地部署
+
+在控制台运行下方命令：
 
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-## Synchronizing Chat Records (UpStash)
+⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
 
-| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
+## 鸣谢
 
-## Documentation
+[项目贡献者列表](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
 
-> Please go to the [docs][./docs] directory for more documentation instructions.
+### 相关项目
 
-- [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
-- [Frequent Ask Questions](./docs/faq-en.md)
-- [How to add a new translation](./docs/translation.md)
-- [How to use Vercel (No English)](./docs/vercel-cn.md)
-- [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
+- [one-api](https://github.com/songquanpeng/one-api): 一站式大模型额度管理平台，支持市面上所有主流大语言模型
+- [one-hub](https://github.com/javastarboy/one-hub): 升级优化版
 
-## Screenshots
+## 联系我们（@AGI舰长，备注：new-hub）
 
-![Settings](./docs/images/settings.png)
+<table>
+  <tr>
+    <td align="center">
+      <picture>
+        <img height="300" src="https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png">
+      </picture>
+      <br/>
+      （微信号）
+    </td>
+    <td align="center">
+      <picture>
+        <img height="300" src="https://lobechat2vercel.oss-cn-beijing.aliyuncs.com/prod/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png">
+      </picture>
+      <br/>
+      （AI全栈交流群）
+    </td>
+  </tr>
+</table>
 
-![More](./docs/images/more.png)
+## 请我喝咖啡
+如果您觉得对您有所帮助，欢迎您的赞助。您的支持将使我有更多的动力继续维护和改进这个项目。
+您可以通过扫描下面的二维码来请我喝杯咖啡：
 
-## Translation
 
-If you want to add a new translation, read this [document](./docs/translation.md).
+<table>
+  <tr>
+    <td align="center">
+      <picture>
+        <img height="400" src="https://lobechat2vercel.oss-cn-beijing.aliyuncs.com/prod/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg">
+      </picture>
+    </td>
+    <td align="center">
+      <picture>
+        <img height="400" src="https://lobechat2vercel.oss-cn-beijing.aliyuncs.com/prod/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg">
+      </picture>
 
-## Donation
+    </td>
+  </tr>
+</table>
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
-
-## Special Thanks
-
-### Sponsor
-
-> 仅列出捐赠金额 >= 100RMB 的用户。
-
-[@mushan0x0](https://github.com/mushan0x0)
-[@ClarenceDan](https://github.com/ClarenceDan)
-[@zhangjia](https://github.com/zhangjia)
-[@hoochanlon](https://github.com/hoochanlon)
-[@relativequantum](https://github.com/relativequantum)
-[@desenmeng](https://github.com/desenmeng)
-[@webees](https://github.com/webees)
-[@chazzhou](https://github.com/chazzhou)
-[@hauy](https://github.com/hauy)
-[@Corwin006](https://github.com/Corwin006)
-[@yankunsong](https://github.com/yankunsong)
-[@ypwhs](https://github.com/ypwhs)
-[@fxxxchao](https://github.com/fxxxchao)
-[@hotic](https://github.com/hotic)
-[@WingCH](https://github.com/WingCH)
-[@jtung4](https://github.com/jtung4)
-[@micozhu](https://github.com/micozhu)
-[@jhansion](https://github.com/jhansion)
-[@Sha1rholder](https://github.com/Sha1rholder)
-[@AnsonHyq](https://github.com/AnsonHyq)
-[@synwith](https://github.com/synwith)
-[@piksonGit](https://github.com/piksonGit)
-[@ouyangzhiping](https://github.com/ouyangzhiping)
-[@wenjiavv](https://github.com/wenjiavv)
-[@LeXwDeX](https://github.com/LeXwDeX)
-[@Licoy](https://github.com/Licoy)
-[@shangmin2009](https://github.com/shangmin2009)
-
-### Contributors
-
-<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
-</a>
-
-## LICENSE
+## 开源协议
 
 [MIT](https://opensource.org/license/mit/)
