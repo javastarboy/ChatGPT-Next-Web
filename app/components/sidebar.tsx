@@ -450,7 +450,7 @@ export function SideBar(props: { className?: string }) {
                 href="https://www.yuque.com/lhyyh/ai/readme"
                 target="_blank"
               >
-                【AI全栈工程师的简历】
+                【AI全栈工程师的简介】
               </a>
             </div>
           </Modal>
