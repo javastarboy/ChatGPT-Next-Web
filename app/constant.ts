@@ -292,6 +292,8 @@ const openaiModels = [
   "dall-e-3",
   "o1-mini",
   "o1-preview",
+  "o1-mini-all",
+  "o1-preview-all",
 ];
 
 const googleModels = [
