@@ -1,16 +1,17 @@
 <div align="center">
 
-<a href='#企业版'>
-  <img src="./docs/images/ent.svg" alt="icon"/>
+<a href='https://nextchat.dev/chat'>
+  <img src="https://github.com/user-attachments/assets/287c510f-f508-478e-ade3-54d30453dc18" width="1000" alt="icon"/>
 </a>
 
-<h1 align="center">NextChat</h1>
+<h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
 简体中文 / [English](./README_EN.md)
 
 一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
 
-[演示Demo](https://www.jsbcp-2.top/#/) / [领航AGI聚合平台](#%E4%BC%81%E4%B8%9A%E7%89%88) / [AI全栈通识教程]([https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入我们](https://www.yuque.com/lhyyh/ai/conactus](https://www.yuque.com/lhyyh/agi/introduce))
+[演示Demo](https://next.jsbcp-3.top/#/) / [AI工具集导航](https://tools.lhagi.com/) / [领航AGI聚合平台](https://javastarboy.com/) / [AI全栈通识教程](https://www.yuque.com/lhyyh/agi/introduce) / [加入我们](https://www.yuque.com/lhyyh/ai/conactus)
+
 
 [<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/ChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) 
 </div>
@@ -66,6 +67,30 @@
 ### 手动更新代码
 
 如果你想让手动立即更新，可以查看 [Github 的文档](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) 了解如何让 fork 的项目与上游代码同步。
+
+- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] 允许用户自行编辑内置 Prompt 列表
+- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] 使用 tauri 打包桌面应用
+- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI 项目](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
+- [x] Artifacts: 通过独立窗口，轻松预览、复制和分享生成的内容/可交互网页 [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
+- [x] 插件机制，支持`联网搜索`、`计算器`、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+   - [x] 支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+ - [x] 支持 Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+ - [ ] 本地知识库
+
+## 最新动态
+- 🚀 v2.15.8 现在支持Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- 🚀 v2.15.4 客户端支持Tauri本地直接调用大模型API，更安全！[#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
+- 🚀 v2.15.0 现在支持插件功能了！了解更多：[NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
+- 🚀 v2.14.0 现在支持 Artifacts & SD 了。
+- 🚀 v2.10.1 现在支持 Gemini Pro 模型。
+- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
+- 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
+- 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
+- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
+- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
 
 你可以 star/watch 本项目或者 follow 作者来及时获得新功能更新通知。
 
@@ -185,6 +210,15 @@ ByteDance Api Url.
 
 讯飞星火Api Secret.
 
+### `CHATGLM_API_KEY` (optional)
+
+ChatGLM Api Key.
+
+### `CHATGLM_URL` (optional)
+
+ChatGLM Api Url.
+
+### `HIDE_USER_API_KEY` (optional)
 
 
 ### `HIDE_USER_API_KEY` （可选）
@@ -229,7 +263,15 @@ ByteDance Api Url.
 
 更改默认模型
 
-### `DEFAULT_INPUT_TEMPLATE` （可选）
+
+### `VISION_MODELS` (optional)
+
+> Default: Empty
+> Example: `gpt-4-vision,claude-3-opus,my-custom-model` means add vision capabilities to these models in addition to the default pattern matches (which detect models containing keywords like "vision", "claude-3", "gemini-1.5", etc).
+
+Add additional models to have vision capabilities, beyond the default pattern matching. Multiple models should be separated by commas.
+
+### `WHITE_WEBDAV_ENDPOINTS` (optional)
 
 自定义默认的 template，用于初始化『设置』中的『用户输入预处理』配置项
 
@@ -263,9 +305,10 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 
 ### 容器部署 （推荐）
 
-> Docker 版本需要在 20 及其以上，否则会提示找不到镜像。
+### BT Install
+> [简体中文 > 如何通过宝塔一键部署](./docs/bt-cn.md)
 
-> ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
+### Docker (Recommended)
 
 ```shell
 docker pull yidadaa/chatgpt-next-web
