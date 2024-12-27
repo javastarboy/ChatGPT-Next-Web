@@ -365,7 +365,7 @@ export function SideBar(props: { className?: string }) {
         <div className="modal-mask">
           <Modal
             title={
-              "📣 公 告 | 领航AGI聚合平台正式上线啦 🎉🎉🎉"
+              "📣 公 告 | 领航AGI聚合平台、国内外【AI工具集导航】网站、正式上线啦 🎉🎉🎉"
             }
             onClose={() => setShowDialog(false)}
             actions={[
@@ -424,9 +424,25 @@ export function SideBar(props: { className?: string }) {
                   window.open("https://oss.javastarboy.com/agi/%E5%BE%AE%E4%BF%A1H5%EF%BC%88%E6%B5%B7%E8%B1%9A%E7%9F%A5%E9%81%93%EF%BC%89.jpg", "_blank");
                 }}
               />,
+              <IconButton
+                key="community"
+                bordered
+                text={"AI工具集导航"}
+                onClick={() => {
+                  window.open("https://tools.lhagi.com/", "_blank");
+                }}
+              />,
             ]}
           >
             <div className={styles["markdown-body"]}>
+              ✅ 国内外【AI工具集导航】网址大全 ▶{" "}
+              <a
+                href="https://tools.lhagi.com/"
+                target="_blank"
+              >
+                ✅ 立即前往（每个菜单下还细分了二级分类）
+              </a>
+              <br /><br />
               ✅ 领航AGI大模型聚合平台 ▶{" "}
               <a
                 href="https://javastarboy.com"

@@ -20,6 +20,7 @@ const cn = {
        \ ------------
        \ ✅ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
        \ ✅ 『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png)     
+       \ ✅ AI工具集导航：https://tools.lhagi.com/
        \ ------------
        \ 📣 本站接广告 及 代部署业务
        `,
@@ -555,7 +556,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "前往公众号👉🏻 [AGI舰长](https://oss.javastarboy.com/agi/AGI%E8%88%B0%E9%95%BF%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7.png) 或服务号👉🏻[领航AGI](https://oss.javastarboy.com/agi/%E9%A2%86%E8%88%AAAGI%E5%BE%AE%E4%BF%A1%E6%9C%8D%E5%8A%A1%E5%8F%B7.png) 可及时获取本站最新资讯。\n\n✅ 领航AGI『[AIGC聚合平台](https://www.javastarboy.com/)』已正式上线 🎉🎉🎉 \n\n 1. 支持个人API_Key管理以及“多种AI工具”，支持 MJ 绘画，Suno音乐，AI视频等 [前往](https://www.javastarboy.com/) \n\n2. 领航AGI聚合平台及AI工具[使用说明](https://www.yuque.com/lhyyh/ai/tool) \n\n3. AI大模型全栈通识课 [成为国内第一批AI大模型全栈工程师](https://www.yuque.com/lhyyh/agi/introduce)\n\n\n✅『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png)",
+    BotHello: "前往公众号👉🏻 [AGI舰长](https://oss.javastarboy.com/agi/AGI%E8%88%B0%E9%95%BF%E5%BE%AE%E4%BF%A1%E8%AE%A2%E9%98%85%E5%8F%B7.png) 或服务号👉🏻[领航AGI](https://oss.javastarboy.com/agi/%E9%A2%86%E8%88%AAAGI%E5%BE%AE%E4%BF%A1%E6%9C%8D%E5%8A%A1%E5%8F%B7.png) 可及时获取本站最新资讯。\n\n✅ [AI工具集导航](https://tools.lhagi.com/),各分类菜单下还细分了二级分类，国内外AI网址大全\n\n✅ 领航AGI『[AIGC聚合平台](https://www.javastarboy.com/)』已正式上线 🎉🎉🎉 \n\n 1. 支持个人API_Key管理以及“多种AI工具”，支持 MJ 绘画，Suno音乐，AI视频等 [前往](https://www.javastarboy.com/) \n\n2. 领航AGI聚合平台及AI工具[使用说明](https://www.yuque.com/lhyyh/ai/tool) \n\n3. AI大模型全栈通识课 [成为国内第一批AI大模型全栈工程师](https://www.yuque.com/lhyyh/agi/introduce)\n\n\n✅『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://oss.javastarboy.com/agi/%E4%B8%AA%E4%BA%BA%E4%BC%81%E5%BE%AE%E4%BA%8C%E7%BB%B4%E7%A0%81.png)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
