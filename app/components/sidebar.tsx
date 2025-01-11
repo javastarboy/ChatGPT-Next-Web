@@ -225,7 +225,8 @@ export function SideBarTail(props: {
 export function SideBar(props: { className?: string }) {
   useHotKey();
   const { onDragStart, shouldNarrow } = useDragSideBar();
-  const [showPluginSelector, setShowPluginSelector , showDiscoverySelector, setshowDiscoverySelector] = useState(false);
+  const [showPluginSelector, setShowPluginSelector] = useState(false);
+  const [showDiscoverySelector, setshowDiscoverySelector] = useState(false);
   const [showDialog, setShowDialog] = useState(true); // 控制公告弹窗的显示状态
   const isMobileScreen = useMobileScreen();
   const navigate = useNavigate();
