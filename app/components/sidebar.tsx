@@ -23,7 +23,6 @@ import {
   MIN_SIDEBAR_WIDTH,
   NARROW_SIDEBAR_WIDTH,
   Path,
-  PLUGINS,
   REPO_URL,
 } from "../constant";
 
@@ -32,6 +31,12 @@ import { isIOS, useMobileScreen } from "../utils";
 import dynamic from "next/dynamic";
 import { showConfirm, showToast, Modal, Selector } from "./ui-lib"; // 引入Modal组件
 import clsx from "clsx";
+
+const DISCOVERY = [
+  { name: Locale.Plugin.Name, path: Path.Plugins },
+  { name: "Stable Diffusion", path: Path.Sd },
+  { name: Locale.SearchChat.Page.Title, path: Path.SearchChat },
+];
 
 const ChatList = dynamic(async () => (await import("./chat-list")).ChatList, {
   loading: () => null,
@@ -220,7 +225,7 @@ export function SideBarTail(props: {
 export function SideBar(props: { className?: string }) {
   useHotKey();
   const { onDragStart, shouldNarrow } = useDragSideBar();
-  const [showPluginSelector, setShowPluginSelector] = useState(false);
+  const [showPluginSelector, setShowPluginSelector , showDiscoverySelector, setshowDiscoverySelector] = useState(false);
   const [showDialog, setShowDialog] = useState(true); // 控制公告弹窗的显示状态
   const isMobileScreen = useMobileScreen();
   const navigate = useNavigate();
@@ -266,21 +271,21 @@ export function SideBar(props: { className?: string }) {
             icon={<DiscoveryIcon />}
             text={shouldNarrow ? undefined : Locale.Discovery.Name}
             className={styles["sidebar-bar-button"]}
-            onClick={() => setShowPluginSelector(true)}
+            onClick={() => setshowDiscoverySelector(true)}
             shadow
           />
         </div>
-        {showPluginSelector && (
+        {showDiscoverySelector && (
           <Selector
             items={[
-              ...PLUGINS.map((item) => {
+              ...DISCOVERY.map((item) => {
                 return {
                   title: item.name,
                   value: item.path,
                 };
               }),
             ]}
-            onClose={() => setShowPluginSelector(false)}
+            onClose={() => setshowDiscoverySelector(false)}
             onSelection={(s) => {
               navigate(s[0], { state: { fromHome: true } });
             }}

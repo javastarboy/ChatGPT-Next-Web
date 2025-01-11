@@ -12,7 +12,6 @@
 
 [演示Demo](https://next.jsbcp-3.top/#/) / [AI工具集导航](https://tools.lhagi.com/) / [领航AGI聚合平台](https://javastarboy.com/) / [AI全栈通识教程](https://www.yuque.com/lhyyh/agi/introduce) / [加入我们](https://www.yuque.com/lhyyh/ai/conactus)
 
-
 [<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/ChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) 
 </div>
 
@@ -217,6 +216,14 @@ ChatGLM Api Key.
 ### `CHATGLM_URL` (optional)
 
 ChatGLM Api Url.
+
+### `DEEPSEEK_API_KEY` (optional)
+
+DeepSeek Api Key.
+
+### `DEEPSEEK_URL` (optional)
+
+DeepSeek Api Url.
 
 ### `HIDE_USER_API_KEY` (optional)
 
