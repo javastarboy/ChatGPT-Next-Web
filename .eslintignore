@@ -1,2 +1,4 @@
 public/serviceWorker.js
 node_modules/
+app/mcp/mcp_config.json
+app/mcp/mcp_config.default.json

@@ -1,10 +1,11 @@
 <div align="center">
 
-<a href='https://nextchat.dev/chat'>
-  <img src="https://github.com/user-attachments/assets/287c510f-f508-478e-ade3-54d30453dc18" width="1000" alt="icon"/>
+<a href='https://nextchat.club'>
+  <img src="https://github.com/user-attachments/assets/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3" width="1000" alt="icon"/>
 </a>
 
 <h1 align="center">NextChat (ChatGPT Next Web)</h1>
+
 
 简体中文 / [English](./README_EN.md)
 
@@ -96,6 +97,7 @@
 ## 配置页面访问密码
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
+
 
 > **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)。
 
@@ -291,9 +293,31 @@ Stability API密钥
 自定义的Stability API请求地址
 
 
+
+### `ENABLE_MCP` (optional)
+
+Enable MCP（Model Context Protocol）Feature
+
+### `SILICONFLOW_API_KEY` (optional)
+
+SiliconFlow API Key.
+
+### `SILICONFLOW_URL` (optional)
+
+SiliconFlow API URL.
+
+## Requirements
+
 ## 开发
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
+
+## Development
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+
+Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
 ```
 OPENAI_API_KEY=<your api key here>
@@ -349,11 +373,24 @@ docker run -d -p 3000:3000 \
 
 在控制台运行下方命令：
 
+### Shell
+
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
 ⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
+
+
+### If enable MCP, use：
+
+```
+docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
+   -e CODE=your-password \
+   -e ENABLE_MCP=true \
+   yidadaa/chatgpt-next-web
+```
 
 ## 鸣谢
 
@@ -406,6 +443,3 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
   </tr>
 </table>
 
-## 开源协议
-
-[MIT](https://opensource.org/license/mit/)

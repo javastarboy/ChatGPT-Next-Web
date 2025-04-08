@@ -84,8 +84,14 @@ declare global {
       CHATGLM_URL?: string;
       CHATGLM_API_KEY?: string;
 
+      // siliconflow only
+      SILICONFLOW_URL?: string;
+      SILICONFLOW_API_KEY?: string;
+
       // custom template for preprocessing user input
       DEFAULT_INPUT_TEMPLATE?: string;
+
+      ENABLE_MCP?: string; // enable mcp functionality
     }
   }
 }
@@ -156,6 +162,7 @@ export const getServerSideConfig = () => {
   const isDeepSeek = !!process.env.DEEPSEEK_API_KEY;
   const isXAI = !!process.env.XAI_API_KEY;
   const isChatGLM = !!process.env.CHATGLM_API_KEY;
+  const isSiliconFlow = !!process.env.SILICONFLOW_API_KEY;
   // const apiKeyEnvVar = process.env.OPENAI_API_KEY ?? "";
   // const apiKeys = apiKeyEnvVar.split(",").map((v) => v.trim());
   // const randomIndex = Math.floor(Math.random() * apiKeys.length);
@@ -235,6 +242,10 @@ export const getServerSideConfig = () => {
     cloudflareKVApiKey: getApiKey(process.env.CLOUDFLARE_KV_API_KEY),
     cloudflareKVTTL: process.env.CLOUDFLARE_KV_TTL,
 
+    isSiliconFlow,
+    siliconFlowUrl: process.env.SILICONFLOW_URL,
+    siliconFlowApiKey: getApiKey(process.env.SILICONFLOW_API_KEY),
+
     gtmId: process.env.GTM_ID,
     gaId: process.env.GA_ID || DEFAULT_GA_ID,
 
@@ -253,5 +264,6 @@ export const getServerSideConfig = () => {
     defaultModel,
     visionModels,
     allowedWebDavEndpoints,
+    enableMcp: process.env.ENABLE_MCP === "true",
   };
 };
